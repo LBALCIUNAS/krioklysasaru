@@ -1,0 +1,106 @@
+body {font-family: Arial, Helvetica, sans-serif}
+* {box-sizing: border-box;}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #ebeaea;
+}
+header{
+  background-color: #4f4747;
+  height: 150px;
+}
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.link{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.link a{
+  color: gray;
+  text-decoration: none;
+  text-align: center;
+}
+.main{
+  background-color: white;
+  width: 70%;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+  
+}
+.main img{
+  display: block;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 90%;
+  
+}
+.text, h3 {
+  color: grey;
+  padding: 0px 20px;
+  
+}
+.text{
+  padding-bottom: 30px;
+}
+.text a{
+  color: rgb(241, 23, 23);
+}
+footer img{
+width: 100%;
+
+}
+
+footer p{
+ font-size: x-small;
+ margin-left: 30px;
+ color: grey;
+}
+
+@media only screen and (max-width: 500px) {
+  .main{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+}
+.link a{
+  color: #4f4747;
+  text-decoration: none;
+  text-align: center;
+}
+header{
+  background-color: #4f4747;
+  height: 120px;
+}
+}
+@media only screen and (max-width: 800px) {
+  .main{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+}
+header{
+  background-color: #4f4747;
+  height: 120px;
+}
+}
+@media print {
+  /* All your print styles go here */
+  header,
+  footer {
+    display: none !important;
+  }
+}
